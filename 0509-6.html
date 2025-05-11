@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>background practice</title>
+</head>
+<body>
+  <style>
+    div {
+      border-radius: 50%;
+    }
+    .insta {
+      position: relative;
+      background: linear-gradient(45deg, #ffe600 10%, #ff0080, #db20db);
+      width: 300px;
+      height: 300px;
+    }
+    .img {
+
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      left: 0px;
+      margin: auto;
+
+      box-sizing: border-box;
+
+      border: 5px solid white;
+      width: 285px;
+      height: 285px;
+      background-image: url(me.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+<body>
+  <div class="insta">
+    <div class="img"></div>
+  </div>
+</body>
+</html>
